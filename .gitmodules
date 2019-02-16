@@ -1,0 +1,4 @@
+[submodule "halley"]
+	path = halley
+	url = https://github.com/amzeratul/halley.git
+	branch = master

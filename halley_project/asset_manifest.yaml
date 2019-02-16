@@ -1,0 +1,17 @@
+---
+packs:
+  - name: game
+    matches:
+      - ~:audioClip
+      - ~:audioEvent
+      - ~:binaryFile
+      - ~:configFile
+      - ~:textFile
+      - ~:sprite
+      - ~:spriteSheet
+      - ~:animation
+      - ~:texture
+      - ~:font
+      - ~:materialDefinition
+      - ~:shader
+...

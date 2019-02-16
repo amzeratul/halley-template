@@ -15,17 +15,17 @@ endif()
 
 set (SOURCES
 	"prec.cpp"
-
+	"src/core/template_game.cpp"
+	"src/stages/game_stage.cpp"
 	)
 
 set (HEADERS
 	"prec.h"
-
+	"src/core/template_game.h"
+	"src/stages/game_stage.h"
 	)
 
 set (GEN_DEFINITIONS
 	)
 
 halleyProject(halleyproj "${SOURCES}" "${HEADERS}" "${GEN_DEFINITIONS}" ${CMAKE_CURRENT_SOURCE_DIR}/${HALLEYPROJ_BIN_DIR})
-
-target_link_libraries(halleyproj halley-steam)
