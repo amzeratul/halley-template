@@ -17,3 +17,13 @@ linux_bin/
 res/*.aps
 .vs/
 src/build_version.h
+
+# Cmake files
+CMakeFiles*
+CMakeCache*
+
+# Boost libs
+boost/
+
+# Direnv files
+.envrc
