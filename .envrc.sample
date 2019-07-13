@@ -1,0 +1,10 @@
+set -a
+
+###
+# Sample .envrc file containing all environment variables
+###
+git config --local user.email <email>
+git config --local user.name <username>
+
+# Boost
+export BOOST_ROOT=$(pwd)/boost
